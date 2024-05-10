@@ -13,3 +13,5 @@ const PORT: number= parseInt(process.env.PORT!) || 3002;
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
+
+console.log("hello"
